@@ -54,3 +54,40 @@ body{
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus{
     color: #000;
 }
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section_title {
+    margin-top: 80px;
+}
+
+.section_title h1 {
+    font-size: 46px;
+}
+
+.single_feature {
+    border: 1px solid #8d0fbe;
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+}
+
+.feature_icon {
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #ddd;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 20px;
+    color: #8d0fbe;
+    transition: all .3s;
+}
+
+.feature_icon:hover {
+    color: #fff;
+    background: #8d0fbe;
+}
