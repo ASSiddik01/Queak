@@ -91,3 +91,25 @@ body{
     color: #fff;
     background: #8d0fbe;
 }
+
+.about_section{
+    padding: 100px;
+}
+
+.about_img {
+    padding: 20px;
+    box-shadow: 0px 0px 20px #eee;
+    border-radius: 10px;
+}
+
+.about_content {
+    padding-left: 30px;
+}
+
+.about_content p, .about_content_2 p {
+    margin: 30px 0 30px;
+}
+
+.about_content_2{
+    padding-right: 40px;
+}
