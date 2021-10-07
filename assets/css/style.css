@@ -15,6 +15,9 @@ body{
     margin: 0 auto;
     list-style: none;
 }
+p{
+    color: darkgray;
+}
 
 .banner_img{
     background-image: url(../img/benner.jpg);
@@ -134,4 +137,39 @@ body{
 
 .service_info h4 span {
     font-weight: 400;
+}
+
+/* Price Section */
+
+.price_about_title {
+    font-size: 52px;
+    font-weight: 200;
+}
+
+h3.price {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.single_price {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.price_service_list {
+    margin-bottom: 35px;
+    padding: 0;
+}
+
+.price_service_list li {
+    list-style: none;
+    border-bottom: 1px dotted #ddd;
+    padding: 10px;
+    color: grey;
+}
+
+.single_price h2 {
+    font-weight: 300;
 }
