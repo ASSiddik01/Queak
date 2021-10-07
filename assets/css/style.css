@@ -113,3 +113,25 @@ body{
 .about_content_2{
     padding-right: 40px;
 }
+
+.service_icon {
+    font-size: 30px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.service_info {
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.service_info h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+}
+
+.service_info h4 span {
+    font-weight: 400;
+}
