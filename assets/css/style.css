@@ -18,6 +18,9 @@ body{
 p{
     color: darkgray;
 }
+a{
+    text-decoration: none;
+}
 
 .banner_img{
     background-image: url(../img/benner.jpg);
@@ -172,4 +175,18 @@ h3.price {
 
 .single_price h2 {
     font-weight: 300;
+}
+
+/* Footer */
+
+footer{
+    background-color: #343a40;
+}
+
+.footer_link {
+    margin-left: 186px;
+}
+
+.copy_right {
+    border-top: 1px solid gray;
 }
