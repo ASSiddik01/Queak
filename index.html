@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand site_title" href="#">
-          <h2 class="">Queak</h2>
+          <img src="./assets/img/Queak.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,9 +47,8 @@
         </div>
       </div>
     </nav>
-
-    <!-- Banner Section -->
-    <section class="banner_section banner_img">
+    <!-- Banner div -->
+    <div class="banner_section banner_img">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-6 text-center">
@@ -59,19 +58,19 @@
               <p class="m-4">Having 3 years plus experience in design and develop area. I do html template conversion
                 and wordpress
                 theme development too. Have any project on mind or any query about project, feel free to contact.</p>
-              <button type="button" class="btn btn-primary py-3 px-5 m-5">Contact Now</button>
+              <button type="button" class="btn py-3 px-5 m-5 btn_regular">Contact Now</button>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </header>
   <!-- Header Area Start -->
 
   <!-- Main Area Start -->
   <main>
     <!-- Feature Section -->
-    <section class="feature_section section " id="feature">
+    <div class="feature_section section " id="feature">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-12">
@@ -128,9 +127,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- About Section -->
-    <section class="about_section section bg-light" id="about">
+    <div class="about_section section bg-light" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -159,10 +158,10 @@
         <div class="row">
           <div class="col-md-6 mt-5">
             <div class="about_content_2">
-              <h2>Latest Bootstrap 4 Build Template</h2>
+              <h2>Latest Bootstrap 5 Build Template</h2>
               <p>Fully responsive template withj latest bootstrap 4 framework and modern UI and technology. Convert your
                 site in a ziffy.</p>
-              <a href="#" class="btn btn-primary py-3 px-5">Services</a>
+              <a href="#" class="btn btn_regular py-3 px-5">Services</a>
 
             </div>
           </div>
@@ -173,9 +172,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- Service Section -->
-    <section class="service_sectons section" id="services">
+    <div class="service_secton section" id="services">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-12">
@@ -254,9 +253,51 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    <!-- Portfolio Section -->
+    <div class="portfolio_section section" id="portfolio">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-12">
+            <div class="section_title mb-5">
+              <h1>My Portfolio</h1>
+              <p>I updated my portfolio with latest work and enriched portfolio to show.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="single_portfolio text-center">
+              <img src="./assets/img/portfolio/1.png" alt="" class="img-fluid">
+              <div class="portfolio_info my-3">
+                <h4>One page Web Tamplate</h4>
+                <h5><span>Web Design</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single_portfolio text-center">
+              <img src="./assets/img/portfolio/2.png" alt="" class="img-fluid">
+              <div class="portfolio_info my-3">
+                <h4>PSD Tamplate</h4>
+                <h5><span>Graphics Design</span></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="single_portfolio text-center">
+              <img src="./assets/img/portfolio/3.png" alt="" class="img-fluid">
+              <div class="portfolio_info my-3">
+                <h4>Wordpress Tamplate</h4>
+                <h5><span>Web Design</span></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Pricing Section -->
-    <section class="price_section section" id="price">
+    <div class="price_section section" id="price">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-12">
@@ -270,7 +311,7 @@
           <div class="col-md-4">
             <h2 class="price_about_title mb-2 ">Affordable Pricing Plan</h2>
             <p class="my-4">No Need to worry about pricing plan. You may have your own custom pricing plan</p>
-            <button type="button" class="btn btn-primary py-3 px-5 m-3 ms-0">Contact Now</button>
+            <button type="button" class="btn btn_regular py-3 px-5 m-3 ms-0">Contact Now</button>
           </div>
           <div class="col-md-4">
             <div class="single_price">
@@ -302,9 +343,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- Testimonial Section -->
-    <section class="testimonial_section section">
+    <div class="testimonial_section section">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -322,7 +363,9 @@
                   <div class="client_img">
                     <img src="./assets/img/testimonial/tes-1.jpg" class=" img-fluid" alt="...">
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio quam, vel dolorem doloremque deserunt sapiente!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias
+                    laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio
+                    quam, vel dolorem doloremque deserunt sapiente!</p>
                   <div class="client_info">
                     <h3>John Smith</h3>
                     <h6>Senior Web developer</h6>
@@ -332,7 +375,9 @@
                   <div class="client_img">
                     <img src="./assets/img/testimonial/tes-2.jpg" class=" img-fluid" alt="...">
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio quam, vel dolorem doloremque deserunt sapiente!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias
+                    laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio
+                    quam, vel dolorem doloremque deserunt sapiente!</p>
                   <div class="client_info">
                     <h3>Mr. Chee</h3>
                     <h6>Junior Web developer</h6>
@@ -342,7 +387,9 @@
                   <div class="client_img">
                     <img src="./assets/img/testimonial/tes-3.jpg" class=" img-fluid" alt="...">
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio quam, vel dolorem doloremque deserunt sapiente!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, velit molestias! Sit molestias
+                    laboriosam minus epellendus nihil necessitatibus, eveniet aspernatur ratione, modi delectus optio
+                    quam, vel dolorem doloremque deserunt sapiente!</p>
                   <div class="client_info">
                     <h3>Lari Pagess</h3>
                     <h6>Graphics Designer</h6>
@@ -363,9 +410,9 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section>
+    </div>
     <!-- Contact Section -->
-    <section class="contact_section section" id="contact">
+    <div class="contact_section section" id="contact">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-md-12">
@@ -385,23 +432,23 @@
             </div>
             <div class="col-md-12"><label class="form-label">Email</label>
               <div class="input-group has-validation"><input type="email" class="form-control"
-                  id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+                  id="validationCustomUsername" required="">
               </div>
             </div>
-            <div class="col-md-12 "><label class="form-label">Your Message</label><textarea class="form-control" name=""
-                id="" cols="100" rows="10" spellcheck="false"></textarea></div>
-            <div class="col-12 text-center"><button class="btn btn-primary" type="submit">Submit</button></div>
+            <div class="col-md-12 "><label class="form-label">Your Message</label><textarea class="form-control"
+                name="textarea" id="textarea" cols="100" rows="10" spellcheck="false"></textarea></div>
+            <div class="col-12 text-center"><button class="btn btn_regular" type="submit">Submit</button></div>
           </form>
         </div>
       </div>
-    </section>
+    </div>
 
   </main>
   <!-- Main Area End -->
 
   <!-- Footer Area Start -->
   <footer>
-    <section class="footer_top py-5">
+    <div class="footer_top py-5">
       <div class="container">
         <div class="row ">
           <div class="col-md-4">
@@ -420,15 +467,15 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="footer_bottom text-center ">
+    </div>
+    <div class="footer_bottom text-center ">
       <div class="container">
         <div class="copy_right py-5">
           <p>&copy; Copyright Reserved to Queak | Design and Developed by <a target="_blank"
               href="https://www.facebook.com/A.S.Siddik0/">Abu Shama.</a></p>
         </div>
       </div>
-    </section>
+    </div>
   </footer>
   <!-- Footer Area End -->
 

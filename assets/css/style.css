@@ -5,24 +5,77 @@ Author: Abu Shama
 Version: 1.0
 ===================================
 -----------CSS Index---------------
-
-
-
+1. Base CSS
+2. Header CSS
+3. Feature CSS
+4. About CSS
+5. Portfolio CSS
+6. Price CSS
+7. Footer CSS
 ===================================
 */
 
-body{
+/* -----------Base CSS---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+body {
     margin: 0 auto;
     list-style: none;
+    font-family: 'Playfair Display', serif;
 }
-p{
+
+p {
     color: darkgray;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.banner_img{
+.btn_regular {
+    background-color: #8d0fbe;
+    border: 1px solid #8d0fbe;
+    color: #fff;
+}
+
+.btn_regular:hover {
+    color: #fff;
+    background-color: #c01bff;
+    border: 1px solid #c01bff;
+}
+
+.section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section_title {
+    margin-top: 80px;
+}
+
+.section_title h1 {
+    font-size: 46px;
+}
+
+/* -----------Header CSS---------- */
+
+.navbar-light {
+    background: #fff;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
+    color: #000;
+}
+
+.site_title img {
+    height: 50px;
+}
+
+.banner_img {
     background-image: url(../img/benner.jpg);
 }
 
@@ -49,29 +102,14 @@ a{
 
 .banner_info {
     padding: 150px 0px;
-    margin:70px 0px;
+    margin: 70px 0px;
 }
-.navbar-light {
-    background: #fff;
-}
-.navbar-brand, .nav-link{
+
+.banner_info p {
     color: #fff;
 }
-.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus{
-    color: #000;
-}
-.section{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
-.section_title {
-    margin-top: 80px;
-}
-
-.section_title h1 {
-    font-size: 46px;
-}
+/* -----------Feature CSS---------- */
 
 .single_feature {
     border: 1px solid #8d0fbe;
@@ -98,7 +136,9 @@ a{
     background: #8d0fbe;
 }
 
-.about_section{
+/* -----------About CSS---------- */
+
+.about_section {
     padding: 100px;
 }
 
@@ -116,9 +156,11 @@ a{
     margin: 30px 0 30px;
 }
 
-.about_content_2{
+.about_content_2 {
     padding-right: 40px;
 }
+
+/* -----------Services CSS---------- */
 
 .service_icon {
     font-size: 30px;
@@ -142,7 +184,41 @@ a{
     font-weight: 400;
 }
 
-/* Price Section */
+/* -----------Portfolio CSS---------- */
+
+.single_portfolio {
+    border: 1px solid #8d0fbe;
+    border-radius: 5px;
+    height: 350px;
+    position: relative;
+    box-shadow: 0px 0px 14px 8px #ddd;
+}
+
+.single_portfolio:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.single_portfolio:hover.single_portfolio:before {
+    opacity: .3;
+    visibility: visible;
+}
+
+.portfolio_info h4 {
+    margin-top: 35px;
+}
+
+.portfolio_info h5 {
+    color: #8d0fbe;
+}
+
+/* -----------Price CSS---------- */
 
 .price_about_title {
     font-size: 52px;
@@ -157,7 +233,7 @@ h3.price {
 .single_price {
     text-align: center;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #8d0fbe;
     border-radius: 10px;
 }
 
@@ -168,7 +244,7 @@ h3.price {
 
 .price_service_list li {
     list-style: none;
-    border-bottom: 1px dotted #ddd;
+    border-bottom: 1px dotted #8d0fbe;
     padding: 10px;
     color: grey;
 }
@@ -176,7 +252,9 @@ h3.price {
 .single_price h2 {
     font-weight: 300;
 }
-/* Testimonial */
+
+/* -----------Testimonial CSS---------- */
+
 .testimonial_section {
     background-color: #343a40;
     padding: 73px 0px;
@@ -196,12 +274,12 @@ h3.price {
 
 .client_info {
     margin-bottom: 20px;
-    color:#fff;
+    color: #fff;
 }
 
-/* Footer */
+/* -----------Footer CSS---------- */
 
-footer{
+footer {
     background-color: #343a40;
 }
 
